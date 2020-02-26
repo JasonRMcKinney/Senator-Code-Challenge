@@ -12,4 +12,4 @@ Small Kotlin based Android app to take the result of [this](https://www.govtrack
 
 ##Screenshots##
 
-![Completed App](https://raw.githubusercontent.com/JasonRMcKinney/Senator-Code-Challenge/new/master/Completed.png)
+![Completed App](Completed.png)
