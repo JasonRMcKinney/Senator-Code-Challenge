@@ -10,6 +10,6 @@ Small Kotlin based Android app to take the result of [this](https://www.govtrack
 - RecyclerView
 - Kotlin Coroutines
 
-##Screenshots##
+## Screenshot ##
 
 ![Completed App](Completed.png)
