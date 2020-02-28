@@ -1,11 +1,14 @@
 package com.example.myapplication.model
 
+import com.google.gson.annotations.SerializedName
 
-data class Senator (
-
-    val person: Person = Person(),
-    val description: String = ""
-
-){
-
+class Senator(
+    val description: String = "",
+    val person: Person = Person("", ""),
+    @SerializedName("leadership_title")
+    val leadershipTitle: String = "",
+    val website: String = ""
+) : Comparable<Senator> {
+    override fun compareTo(other: Senator): Int =
+        this.person.lastname.compareTo(other.person.lastname)
 }
